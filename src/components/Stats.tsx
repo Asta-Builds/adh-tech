@@ -27,11 +27,11 @@ export default function Stats() {
     ];
 
     return (
-        <section className="py-20 px-6 lg:px-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
+        <section className="py-20 px-6 lg:px-12 bg-blue-600 relative overflow-hidden">
             {/* Background decorations */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px]"></div>
-                <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[100px]"></div>
+                <div className="absolute top-0 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-[100px]"></div>
+                <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-400/10 rounded-full blur-[100px]"></div>
             </div>
 
             <div className="max-w-[1440px] mx-auto relative z-10">
@@ -39,7 +39,7 @@ export default function Stats() {
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                         Numbers That Speak
                     </h2>
-                    <p className="text-slate-400 max-w-lg mx-auto">
+                    <p className="text-blue-100 max-w-lg mx-auto">
                         Our track record of excellence and commitment to delivering exceptional results.
                     </p>
                 </div>
@@ -48,21 +48,21 @@ export default function Stats() {
                     {stats.map((stat, index) => (
                         <div
                             key={index}
-                            className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 text-center hover:bg-white/10 hover:border-white/20 transition-all duration-300"
+                            className="group relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 text-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:-translate-y-1"
                         >
-                            <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-cyan-500 mx-auto mb-4 group-hover:scale-110 transition-transform">
-                                <span className="material-symbols-outlined text-white text-[24px]">{stat.icon}</span>
+                            <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-primary mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
+                                <span className="material-symbols-outlined text-[24px]">{stat.icon}</span>
                             </div>
 
-                            <div className="text-4xl md:text-5xl font-bold text-white mb-2 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+                            <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                                 {stat.value}
                             </div>
 
-                            <h3 className="text-lg font-semibold text-white mb-1">
+                            <h3 className="text-lg font-semibold text-blue-50 mb-1">
                                 {stat.label}
                             </h3>
 
-                            <p className="text-sm text-slate-400">
+                            <p className="text-sm text-blue-100/80">
                                 {stat.description}
                             </p>
                         </div>
