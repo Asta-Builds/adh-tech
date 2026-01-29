@@ -24,7 +24,7 @@ export default function CaseStudies() {
     ];
 
     return (
-        <section className="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
+        <section id="case-studies" className="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Engineering the Future</h2>
