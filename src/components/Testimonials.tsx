@@ -32,7 +32,7 @@ export default function Testimonials() {
                         Client Testimonials
                     </div>
                     <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">
-                        Trusted by <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-600">Industry Leaders</span>
+                        Trusted by <span className="text-primary">Industry Leaders</span>
                     </h2>
                     <p className="text-text-secondary text-lg max-w-2xl mx-auto">
                         Don't just take our word for it. Here's what our clients have to say about working with us.
