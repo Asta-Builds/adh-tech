@@ -10,7 +10,7 @@ export default function Contact() {
                     </div>
                     <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
                         Let's Built Something <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-600">Extraordinary</span>
+                        <span className="text-primary">Extraordinary</span>
                     </h2>
                     <p className="text-text-secondary text-lg leading-relaxed mb-10 max-w-lg">
                         Have a project in mind? We'd love to hear from you. Send us a message and we'll get back to you within 24 hours.

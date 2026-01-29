@@ -46,7 +46,7 @@ export default function Services() {
                     Our Expertise
                 </div>
                 <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">
-                    Services That Drive <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-600">Success</span>
+                    Services That Drive <span className="text-primary">Success</span>
                 </h2>
                 <p className="text-text-secondary text-lg max-w-2xl mx-auto">
                     We offer comprehensive technology solutions tailored to transform your business and accelerate growth.

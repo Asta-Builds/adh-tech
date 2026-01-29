@@ -28,7 +28,7 @@ export default function About() {
                     </div>
 
                     <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-                        Building the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-600">Digital Future</span> Together
+                        Building the <span className="text-primary">Digital Future</span> Together
                     </h2>
 
                     <p className="text-text-secondary text-lg leading-relaxed mb-6">
