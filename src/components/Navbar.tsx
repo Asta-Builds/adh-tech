@@ -24,10 +24,10 @@ export default function Navbar() {
                 </div>
 
                 {/* CTA Button */}
-                <button className="hidden md:flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-glow transition-all hover:bg-blue-700 hover:shadow-glow-hover hover:-translate-y-0.5 cursor-pointer">
+                <a href="#contact" className="hidden md:flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-glow transition-all hover:bg-blue-700 hover:shadow-glow-hover hover:-translate-y-0.5 cursor-pointer">
                     <span>Contact Us</span>
                     <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
-                </button>
+                </a>
 
                 {/* Mobile Menu Button */}
                 <button
@@ -45,10 +45,10 @@ export default function Navbar() {
                     <a className="text-sm font-medium text-text-secondary hover:text-primary transition-colors" href="#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
                     <a className="text-sm font-medium text-text-secondary hover:text-primary transition-colors" href="#case-studies" onClick={() => setIsMobileMenuOpen(false)}>Case Studies</a>
                     <a className="text-sm font-medium text-text-secondary hover:text-primary transition-colors" href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
-                    <button className="flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-glow transition-all hover:bg-blue-700 cursor-pointer">
+                    <a href="#contact" className="flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-glow transition-all hover:bg-blue-700 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
                         <span>Contact Us</span>
                         <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
-                    </button>
+                    </a>
                 </div>
             )}
         </header>

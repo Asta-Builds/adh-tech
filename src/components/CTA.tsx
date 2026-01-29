@@ -11,14 +11,14 @@ export default function CTA() {
                 </p>
 
                 <div className="relative flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <button className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-white shadow-glow transition-all hover:bg-blue-700 hover:shadow-glow-hover cursor-pointer">
+                    <a href="#contact" className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-white shadow-glow transition-all hover:bg-blue-700 hover:shadow-glow-hover cursor-pointer">
                         Start a Project
-                    </button>
+                    </a>
 
-                    <button className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-8 py-3.5 text-base font-bold text-slate-800 hover:bg-slate-50 hover:border-slate-300 cursor-pointer">
+                    <a href="#contact" className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-8 py-3.5 text-base font-bold text-slate-800 hover:bg-slate-50 hover:border-slate-300 cursor-pointer">
                         <span className="material-symbols-outlined">call</span>
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

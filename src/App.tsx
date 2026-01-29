@@ -8,6 +8,7 @@ import About from './components/About'
 import CaseStudies from './components/CaseStudies'
 import Testimonials from './components/Testimonials'
 import CTA from './components/CTA'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <CaseStudies />
         <Testimonials />
         <CTA />
+        <Contact />
       </main>
       <Footer />
     </div>
