@@ -45,3 +45,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
 }
+/* Manual override because bg-primary utility is not generating */
+.bg-primary {
+  background-color: var(--color-primary);
+}
