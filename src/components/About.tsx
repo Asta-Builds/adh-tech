@@ -1,22 +1,22 @@
-export default function About() {
-    const values = [
-        {
-            icon: "lightbulb",
-            title: "Innovation First",
-            description: "We embrace cutting-edge technologies and creative solutions to solve complex challenges."
-        },
-        {
-            icon: "handshake",
-            title: "Client Partnership",
-            description: "Your success is our success. We build lasting relationships based on trust and results."
-        },
-        {
-            icon: "verified",
-            title: "Quality Driven",
-            description: "We maintain the highest standards in every project, ensuring excellence in delivery."
-        }
-    ];
+const values = [
+    {
+        icon: "lightbulb",
+        title: "Innovation First",
+        description: "We embrace cutting-edge technologies and creative solutions to solve complex challenges."
+    },
+    {
+        icon: "handshake",
+        title: "Client Partnership",
+        description: "Your success is our success. We build lasting relationships based on trust and results."
+    },
+    {
+        icon: "verified",
+        title: "Quality Driven",
+        description: "We maintain the highest standards in every project, ensuring excellence in delivery."
+    }
+];
 
+export default function About() {
     return (
         <section id="about" className="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
