@@ -1,28 +1,28 @@
-export default function Testimonials() {
-    const testimonials = [
-        {
-            quote: "ADH-Tech transformed our entire digital infrastructure. Their AI solutions reduced our processing time by 70% and opened new revenue streams we never thought possible.",
-            author: "Sarah Chen",
-            role: "CTO, FinanceFlow",
-            avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
-            rating: 5
-        },
-        {
-            quote: "The team's expertise in cloud architecture helped us scale from 10,000 to 10 million users seamlessly. Their proactive approach and 24/7 support exceeded all expectations.",
-            author: "Marcus Rodriguez",
-            role: "VP Engineering, ScaleUp",
-            avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
-            rating: 5
-        },
-        {
-            quote: "Working with ADH-Tech was a game-changer. They didn't just deliver a product; they became a strategic partner in our digital transformation journey.",
-            author: "Emily Thompson",
-            role: "CEO, HealthBridge",
-            avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
-            rating: 5
-        }
-    ];
+const testimonials = [
+    {
+        quote: "ADH-Tech transformed our entire digital infrastructure. Their AI solutions reduced our processing time by 70% and opened new revenue streams we never thought possible.",
+        author: "Sarah Chen",
+        role: "CTO, FinanceFlow",
+        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
+        rating: 5
+    },
+    {
+        quote: "The team's expertise in cloud architecture helped us scale from 10,000 to 10 million users seamlessly. Their proactive approach and 24/7 support exceeded all expectations.",
+        author: "Marcus Rodriguez",
+        role: "VP Engineering, ScaleUp",
+        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+        rating: 5
+    },
+    {
+        quote: "Working with ADH-Tech was a game-changer. They didn't just deliver a product; they became a strategic partner in our digital transformation journey.",
+        author: "Emily Thompson",
+        role: "CEO, HealthBridge",
+        avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+        rating: 5
+    }
+];
 
+export default function Testimonials() {
     return (
         <section className="py-24 px-6 lg:px-12 bg-gradient-to-b from-white to-slate-50">
             <div className="max-w-[1440px] mx-auto">
@@ -52,7 +52,7 @@ export default function Testimonials() {
 
                             {/* Rating */}
                             <div className="flex gap-1 mb-4">
-                                {[...Array(testimonial.rating)].map((_, i) => (
+                                {Array.from({ length: testimonial.rating }, (_, i) => (
                                     <span key={i} className="material-symbols-outlined text-amber-400 text-[20px]">star</span>
                                 ))}
                             </div>
