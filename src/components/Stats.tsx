@@ -1,31 +1,31 @@
-export default function Stats() {
-    const stats = [
-        {
-            icon: "rocket_launch",
-            value: "500+",
-            label: "Projects Delivered",
-            description: "Successful implementations worldwide"
-        },
-        {
-            icon: "groups",
-            value: "150+",
-            label: "Expert Engineers",
-            description: "Talented professionals on our team"
-        },
-        {
-            icon: "public",
-            value: "45+",
-            label: "Countries Served",
-            description: "Global reach and local expertise"
-        },
-        {
-            icon: "trending_up",
-            value: "99.9%",
-            label: "Uptime Guarantee",
-            description: "Reliable infrastructure always"
-        }
-    ];
+const stats = [
+    {
+        icon: "rocket_launch",
+        value: "500+",
+        label: "Projects Delivered",
+        description: "Successful implementations worldwide"
+    },
+    {
+        icon: "groups",
+        value: "150+",
+        label: "Expert Engineers",
+        description: "Talented professionals on our team"
+    },
+    {
+        icon: "public",
+        value: "45+",
+        label: "Countries Served",
+        description: "Global reach and local expertise"
+    },
+    {
+        icon: "trending_up",
+        value: "99.9%",
+        label: "Uptime Guarantee",
+        description: "Reliable infrastructure always"
+    }
+];
 
+export default function Stats() {
     return (
         <section className="py-20 px-6 lg:px-12 bg-blue-600 relative overflow-hidden">
             {/* Background decorations */}
