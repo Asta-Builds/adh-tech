@@ -1,43 +1,43 @@
-export default function Services() {
-    const services = [
-        {
-            icon: "psychology",
-            title: "AI & Machine Learning",
-            description: "Harness the power of artificial intelligence to automate processes, gain insights, and drive innovation across your organization.",
-            features: ["Predictive Analytics", "Natural Language Processing", "Computer Vision"]
-        },
-        {
-            icon: "cloud",
-            title: "Cloud Architecture",
-            description: "Design and implement scalable, secure cloud infrastructure that grows with your business needs.",
-            features: ["AWS / Azure / GCP", "Microservices", "DevOps Automation"]
-        },
-        {
-            icon: "shield",
-            title: "Cybersecurity",
-            description: "Protect your digital assets with enterprise-grade security solutions and zero-trust architecture.",
-            features: ["Threat Detection", "Compliance", "Security Audits"]
-        },
-        {
-            icon: "code",
-            title: "Custom Development",
-            description: "Build tailored software solutions that perfectly align with your unique business requirements.",
-            features: ["Web & Mobile Apps", "API Development", "System Integration"]
-        },
-        {
-            icon: "analytics",
-            title: "Data Analytics",
-            description: "Transform raw data into actionable insights with advanced analytics and visualization tools.",
-            features: ["Business Intelligence", "Real-time Dashboards", "Data Warehousing"]
-        },
-        {
-            icon: "support_agent",
-            title: "IT Consulting",
-            description: "Strategic technology guidance to help you make informed decisions and optimize your IT investments.",
-            features: ["Digital Strategy", "Tech Roadmaps", "Process Optimization"]
-        }
-    ];
+const services = [
+    {
+        icon: "psychology",
+        title: "AI & Machine Learning",
+        description: "Harness the power of artificial intelligence to automate processes, gain insights, and drive innovation across your organization.",
+        features: ["Predictive Analytics", "Natural Language Processing", "Computer Vision"]
+    },
+    {
+        icon: "cloud",
+        title: "Cloud Architecture",
+        description: "Design and implement scalable, secure cloud infrastructure that grows with your business needs.",
+        features: ["AWS / Azure / GCP", "Microservices", "DevOps Automation"]
+    },
+    {
+        icon: "shield",
+        title: "Cybersecurity",
+        description: "Protect your digital assets with enterprise-grade security solutions and zero-trust architecture.",
+        features: ["Threat Detection", "Compliance", "Security Audits"]
+    },
+    {
+        icon: "code",
+        title: "Custom Development",
+        description: "Build tailored software solutions that perfectly align with your unique business requirements.",
+        features: ["Web & Mobile Apps", "API Development", "System Integration"]
+    },
+    {
+        icon: "analytics",
+        title: "Data Analytics",
+        description: "Transform raw data into actionable insights with advanced analytics and visualization tools.",
+        features: ["Business Intelligence", "Real-time Dashboards", "Data Warehousing"]
+    },
+    {
+        icon: "support_agent",
+        title: "IT Consulting",
+        description: "Strategic technology guidance to help you make informed decisions and optimize your IT investments.",
+        features: ["Digital Strategy", "Tech Roadmaps", "Process Optimization"]
+    }
+];
 
+export default function Services() {
     return (
         <section id="services" className="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
             <div className="text-center mb-16">
