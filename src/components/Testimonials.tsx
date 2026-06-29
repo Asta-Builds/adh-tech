@@ -52,7 +52,7 @@ export default function Testimonials() {
 
                             {/* Rating */}
                             <div className="flex gap-1 mb-4">
-                                {[...Array(testimonial.rating)].map((_, i) => (
+                                {Array.from({ length: testimonial.rating }, (_, i) => (
                                     <span key={i} className="material-symbols-outlined text-amber-400 text-[20px]">star</span>
                                 ))}
                             </div>
